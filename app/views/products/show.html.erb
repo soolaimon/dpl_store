@@ -1,0 +1,9 @@
+<h1><%= @product.name %></h1>
+<h3><%= number_to_currency(@product.price) %></h3>
+<p>Sku: <%= @product.sku %></p>
+<div>
+  <%= @product.description %>
+</div>
+<!-- If you know for certain that your string is safe (static, created by you), you can add the .html_safe method to the string -->
+<!-- Also, you still have to use a pound sign in here to do a ruby comment -->
+<%= link_to '&laquo;Back to all products'.html_safe, products_path  %>

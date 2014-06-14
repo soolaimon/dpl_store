@@ -79,3 +79,13 @@ ul#products li {
 ul#products li.odd {
   background-color: #eeeeee;
 }
+
+.left-column {
+  float: left;
+  width: 400px;
+}
+
+.right-column {
+  float: right;
+  width: 400px;
+}
